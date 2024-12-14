@@ -1,4 +1,5 @@
 mod eachenumholditsowndata;
+mod patternmatchenum;
 // Fix the errors
 enum Number {
     Zero,
@@ -27,5 +28,7 @@ fn main() {
     println!("{}",Number::Zero as u8);
     println!("Success!");
 
-    eachenumholditsowndata::main();
+   eachenumholditsowndata::main();
+    patternmatchenum::main();
+
 }
