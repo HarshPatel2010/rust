@@ -1,5 +1,9 @@
 mod eachenumholditsowndata;
 mod patternmatchenum;
+mod test1;
+mod whenvalueisabsentuseenumOptionTtodealwiththeabsentvalue;
+
+
 // Fix the errors
 enum Number {
     Zero,
@@ -28,7 +32,9 @@ fn main() {
     println!("{}",Number::Zero as u8);
     println!("Success!");
 
-   eachenumholditsowndata::main();
+    eachenumholditsowndata::main();
     patternmatchenum::main();
+    test1::main();
+    whenvalueisabsentuseenumOptionTtodealwiththeabsentvalue::main()
 
 }
