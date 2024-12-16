@@ -1,12 +1,20 @@
+#[derive(Debug)]
+pub enum UsState{
+    Alabama,
+    NewYork
+}
+#[derive(Debug)]
 pub enum Coins{
     penny,
     ruppe,
     paisa,
-    dollar
+    dollar(UsState)
 }
 
-pub fn main(){
 
+pub fn main(){
+let coin:Coins = Coins::dollar(UsState::Alabama);
+    println!("Penny's value is {}",value_in_coin(coin));
 }
 pub fn value_in_coin(coin:Coins)->u8{
     match coin{
@@ -16,7 +24,14 @@ pub fn value_in_coin(coin:Coins)->u8{
         },
         Coins::ruppe=>2,
         Coins::paisa=>3,
-        Coins::dollar=>4,
+        Coins::dollar(UsState::NewYork)=>{
+            println!("this is dollar");
+            20
+        }
+        Coins::dollar(state)=>{
+            println!("got Dollar state {:?}",state);
+            25
+        },
     }
 
 }
