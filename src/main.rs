@@ -3,6 +3,7 @@ mod patternmatchenum;
 mod test1;
 mod whenvalueisabsentuseenumOptionTtodealwiththeabsentvalue;
 mod enumexample;
+mod matches;
 
 
 
@@ -39,5 +40,6 @@ fn main() {
     test1::main();
     whenvalueisabsentuseenumOptionTtodealwiththeabsentvalue::main();
     enumexample::main();
+    matches::main();
 
 }
