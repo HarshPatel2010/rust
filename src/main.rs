@@ -2,6 +2,8 @@ mod eachenumholditsowndata;
 mod patternmatchenum;
 mod test1;
 mod whenvalueisabsentuseenumOptionTtodealwiththeabsentvalue;
+mod enumexample;
+
 
 
 // Fix the errors
@@ -35,6 +37,7 @@ fn main() {
     eachenumholditsowndata::main();
     patternmatchenum::main();
     test1::main();
-    whenvalueisabsentuseenumOptionTtodealwiththeabsentvalue::main()
+    whenvalueisabsentuseenumOptionTtodealwiththeabsentvalue::main();
+    enumexample::main();
 
 }
