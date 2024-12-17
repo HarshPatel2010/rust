@@ -8,6 +8,8 @@ mod flowcontroliflet;
 mod whileloop;
 mod breakloop;
 mod labelwithmultiplenestedloops;
+mod matchpattern;
+
 
 
 
@@ -51,6 +53,7 @@ fn main() {
     whileloop::main();
     breakloop::main();
     labelwithmultiplenestedloops::main();
+    matchpattern::main();
 
 
 
