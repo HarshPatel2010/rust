@@ -10,6 +10,7 @@ mod breakloop;
 mod labelwithmultiplenestedloops;
 mod matchpattern;
 mod ifletpracticerust;
+mod patterns;
 
 
 
@@ -58,6 +59,7 @@ fn main() {
     labelwithmultiplenestedloops::main();
     matchpattern::main();
     ifletpracticerust::main();
+    patterns::main();
 
 
 
