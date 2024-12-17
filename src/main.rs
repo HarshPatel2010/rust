@@ -4,6 +4,9 @@ mod test1;
 mod whenvalueisabsentuseenumOptionTtodealwiththeabsentvalue;
 mod enumexample;
 mod matches;
+mod flowcontroliflet;
+mod whileloop;
+
 
 
 
@@ -41,6 +44,9 @@ fn main() {
     whenvalueisabsentuseenumOptionTtodealwiththeabsentvalue::main();
     enumexample::main();
     matches::main();
+    flowcontroliflet::main();
+    whileloop::main();
+
 
 
 }
