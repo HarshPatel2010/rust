@@ -6,6 +6,9 @@ mod enumexample;
 mod matches;
 mod flowcontroliflet;
 mod whileloop;
+mod breakloop;
+mod labelwithmultiplenestedloops;
+
 
 
 
@@ -46,6 +49,8 @@ fn main() {
     matches::main();
     flowcontroliflet::main();
     whileloop::main();
+    breakloop::main();
+    labelwithmultiplenestedloops::main();
 
 
 
