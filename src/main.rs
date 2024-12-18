@@ -16,6 +16,7 @@ mod associatedfunctionandmethods;
 mod methodswithownership;
 mod methodexersise;
 mod implonenums;
+mod generics;
 
 
 
@@ -76,6 +77,7 @@ fn main() {
     methodswithownership::main();
     methodexersise::main();
     implonenums::main();
+    generics::main();
 
 
 
