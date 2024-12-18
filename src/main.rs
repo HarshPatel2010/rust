@@ -12,6 +12,15 @@ mod matchpattern;
 mod ifletpracticerust;
 mod patterns;
 mod accociatedfunctionexample;
+mod associatedfunctionandmethods;
+mod methodswithownership;
+mod methodexersise;
+mod implonenums;
+
+
+
+
+
 
 
 
@@ -63,6 +72,10 @@ fn main() {
     ifletpracticerust::main();
     patterns::main();
     accociatedfunctionexample::main();
+    associatedfunctionandmethods::main();
+    methodswithownership::main();
+    methodexersise::main();
+    implonenums::main();
 
 
 
