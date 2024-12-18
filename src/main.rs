@@ -17,6 +17,8 @@ mod methodswithownership;
 mod methodexersise;
 mod implonenums;
 mod generics;
+mod constgenerics;
+
 
 
 
@@ -78,6 +80,7 @@ fn main() {
     methodexersise::main();
     implonenums::main();
     generics::main();
+    constgenerics::main();
 
 
 
