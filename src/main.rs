@@ -11,6 +11,8 @@ mod labelwithmultiplenestedloops;
 mod matchpattern;
 mod ifletpracticerust;
 mod patterns;
+mod accociatedfunctionexample;
+
 
 
 
@@ -60,6 +62,7 @@ fn main() {
     matchpattern::main();
     ifletpracticerust::main();
     patterns::main();
+    accociatedfunctionexample::main();
 
 
 
