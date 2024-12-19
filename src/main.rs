@@ -19,6 +19,7 @@ mod implonenums;
 mod generics;
 mod constgenerics;
 mod traitss;
+mod deriveTraits;
 
 
 
@@ -83,6 +84,7 @@ fn main() {
     generics::main();
     constgenerics::main();
     traitss::main();
+    deriveTraits::main();
 
 
 
