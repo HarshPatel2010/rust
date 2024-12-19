@@ -18,6 +18,7 @@ mod methodexersise;
 mod implonenums;
 mod generics;
 mod constgenerics;
+mod traitss;
 
 
 
@@ -81,6 +82,7 @@ fn main() {
     implonenums::main();
     generics::main();
     constgenerics::main();
+    traitss::main();
 
 
 
