@@ -10,6 +10,12 @@ pub fn main() {
             data:[1,2,11]
         }
     ];
+ let floats : [Array<f64,2>;3]=[
+     Array{data:[1.0,2.0]},
+     Array{data:[1.0,2.0]},
+     Array{data:[1.0,2.0]},
+
+ ];
     println!("success!!");
 }
 
