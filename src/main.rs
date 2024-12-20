@@ -21,6 +21,7 @@ mod constgenerics;
 mod traitss;
 mod deriveTraits;
 mod traitasFunc;
+mod returntypeImplTraits;
 
 
 
@@ -88,6 +89,7 @@ fn main() {
     traitss::main();
     deriveTraits::main();
     traitasFunc::main();
+    returntypeImplTraits::main();
 
 
 
