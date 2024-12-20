@@ -49,7 +49,7 @@ pub fn main() {
 }
 
 // Implement `fn summary` below.
-fn summary<T:Summary>(a:&impl Summary) {
+fn summary(a:&impl Summary) {
   let output :String =  a.summarize();
     println!("{}", output);
 }

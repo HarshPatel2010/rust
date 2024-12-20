@@ -20,16 +20,16 @@ impl Animal for Cow {
 
 // Returns some struct that implements Animal, but we don't know which one at compile time.
 // FIX the errors here, you can make a fake random, or you can use trait object.
-fn random_animal(random_number: f64) -> impl Animal {
+fn random_animal(random_number: f64) -> Box<dyn Animal> {
     if random_number < 0.5 {
-        Sheep {}
+      Box::new(Sheep {})
     } else {
-        Cow {}
+       Box::new( Cow {})
     }
 }
 
 pub fn main() {
-    let random_number = 0.234;
+    let random_number:f64 = 0.234;
     let animal = random_animal(random_number);
     println!("You've randomly chosen an animal, and it says {}", animal.noise());
 }
