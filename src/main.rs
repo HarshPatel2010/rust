@@ -20,6 +20,8 @@ mod generics;
 mod constgenerics;
 mod traitss;
 mod deriveTraits;
+mod traitasFunc;
+
 
 
 
@@ -85,6 +87,7 @@ fn main() {
     constgenerics::main();
     traitss::main();
     deriveTraits::main();
+    traitasFunc::main();
 
 
 
