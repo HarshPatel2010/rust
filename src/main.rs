@@ -24,6 +24,7 @@ mod traitasFunc;
 mod returntypeImplTraits;
 mod traitBound;
 mod dynBox;
+mod objsafe;
 
 
 
@@ -81,7 +82,7 @@ fn main() {
     returntypeImplTraits::main();
     traitBound::main();
     dynBox::main();
-
+    objsafe::main();
 
 
 }
