@@ -22,21 +22,7 @@ mod traitss;
 mod deriveTraits;
 mod traitasFunc;
 mod returntypeImplTraits;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+mod traitBound;
 
 // Fix the errors
 enum Number {
@@ -90,6 +76,7 @@ fn main() {
     deriveTraits::main();
     traitasFunc::main();
     returntypeImplTraits::main();
+    traitBound::main();
 
 
 
