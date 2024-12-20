@@ -23,6 +23,9 @@ mod deriveTraits;
 mod traitasFunc;
 mod returntypeImplTraits;
 mod traitBound;
+mod dynBox;
+
+
 
 // Fix the errors
 enum Number {
@@ -77,6 +80,7 @@ fn main() {
     traitasFunc::main();
     returntypeImplTraits::main();
     traitBound::main();
+    dynBox::main();
 
 
 
