@@ -22,4 +22,5 @@ pub fn main() {
     my_function(String::from("abc"));
 
     println!("Success2!");
+
 }

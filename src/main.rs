@@ -26,6 +26,7 @@ mod traitBound;
 mod dynBox;
 mod objsafe;
 
+mod objsafedynamicdispatch;
 
 
 // Fix the errors
@@ -82,7 +83,8 @@ fn main() {
     returntypeImplTraits::main();
     traitBound::main();
     dynBox::main();
-    objsafe::main();
+    objsafedynamicdispatch::main();
+
 
 
 }
