@@ -27,6 +27,8 @@ mod dynBox;
 mod objsafe;
 
 mod objsafedynamicdispatch;
+mod stringgg;
+
 
 
 // Fix the errors
@@ -84,6 +86,7 @@ fn main() {
     traitBound::main();
     dynBox::main();
     objsafedynamicdispatch::main();
+    stringgg::main()
 
 
 
