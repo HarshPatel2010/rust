@@ -135,6 +135,35 @@ pub fn main() {
                         assert_eq!(v[1], IpAddr::V6("::1".to_string()));
 
                         println!("Succes0------");
+                        trait IpAddrs {
+                            fn display(&self);
+                        }
+
+                        struct V4(String);
+                        impl IpAddrs for V4 {
+                            fn display(&self) {
+                                println!("ipv4: {:?}",self.0)
+                            }
+                        }
+                        struct V6(String);
+                        impl IpAddrs for V6 {
+                            fn display(&self) {
+                                println!("ipv6: {:?}",self.0)
+                            }
+                        }
+
+                        fn main() {
+                            // FILL in the blank
+                            let v: Vec<Box<dyn IpAddrs>>= vec![
+                                Box::new(V4("127.0.0.1".to_string())),
+                                Box::new(V6("::1".to_string())),
+                            ];
+
+                            for ip in v {
+                                ip.display();
+                            }
+                        }
+                        main()
                     }
                     main()
                 }
