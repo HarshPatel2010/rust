@@ -28,6 +28,7 @@ mod objsafe;
 
 mod objsafedynamicdispatch;
 mod stringgg;
+mod vectorr;
 
 
 
@@ -86,7 +87,8 @@ fn main() {
     traitBound::main();
     dynBox::main();
     objsafedynamicdispatch::main();
-    stringgg::main()
+    stringgg::main();
+    vectorr::main();
 
 
 
