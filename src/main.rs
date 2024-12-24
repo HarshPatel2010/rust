@@ -29,6 +29,7 @@ mod objsafe;
 mod objsafedynamicdispatch;
 mod stringgg;
 mod vectorr;
+mod hashmap;
 
 
 
@@ -89,6 +90,9 @@ fn main() {
     objsafedynamicdispatch::main();
     stringgg::main();
     vectorr::main();
+    hashmap::main();
+
+
 
 
 
