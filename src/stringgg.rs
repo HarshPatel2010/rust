@@ -95,6 +95,29 @@ pub fn main() {
                         }
 
                         println!("Success!");
+
+                        // FIX the errors
+                        fn main() {
+                            let mut v = vec![1, 2, 3];
+
+                            let slice1:&[i32] = &v[..];
+                            // Out of bounds will cause a panic
+                            // You must use `v.len` here
+                            let slice2:&[i32] = &v[0..v.len()];
+
+                            assert_eq!(slice1, slice2);
+
+                            // Slices are read only
+                            // Note: slice and &Vec are different
+                            let vec_ref: &mut Vec<i32> = &mut v;
+                            (*vec_ref).push(4);
+                            let slice3 = &v[0..4];
+
+                            assert_eq!(slice3, &[1, 2, 3, 4]);
+
+                            println!("Success!21");
+                        }
+                        main()
                     }
                     main()
                 }
