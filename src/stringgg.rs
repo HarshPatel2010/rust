@@ -27,8 +27,28 @@ pub fn main() {
         assert_eq!(slice3, "hello, world!");
 
         println!("Success!");
+
+        // Question: how many heap allocations are happening here?
+        // Your answer:
+        fn main() {
+            // Create a String type based on `&str`
+            // The type of string literals is `&str`
+            let s: String = String::from("hello, world!");
+
+            // Create a slice point to String `s`
+            let slice: &str = &s;
+
+            // Create a String type based on the recently created slice
+            let s: String = slice.to_string();
+
+            assert_eq!(s, "hello, world!");
+
+            println!("Success!2");
+        }
+        main()
     }
     main()
+
 }
 
 pub fn move_ownership(s: String) {
