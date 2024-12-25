@@ -30,6 +30,7 @@ mod objsafedynamicdispatch;
 mod stringgg;
 mod vectorr;
 mod hashmap;
+mod asconversion;
 
 
 
@@ -91,6 +92,7 @@ fn main() {
     stringgg::main();
     vectorr::main();
     hashmap::main();
+    asconversion::main();
 
 
 
