@@ -31,6 +31,7 @@ mod stringgg;
 mod vectorr;
 mod hashmap;
 mod asconversion;
+mod frominto;
 
 
 
@@ -93,6 +94,7 @@ fn main() {
     vectorr::main();
     hashmap::main();
     asconversion::main();
+    frominto::main();
 
 
 
