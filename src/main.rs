@@ -32,6 +32,7 @@ mod vectorr;
 mod hashmap;
 mod asconversion;
 mod frominto;
+mod manipulateoutput;
 
 
 
@@ -95,6 +96,7 @@ fn main() {
     hashmap::main();
     asconversion::main();
     frominto::main();
+    manipulateoutput::main();
 
 
 
