@@ -33,6 +33,7 @@ mod hashmap;
 mod asconversion;
 mod frominto;
 mod manipulateoutput;
+mod result;
 
 
 
@@ -97,6 +98,7 @@ fn main() {
     asconversion::main();
     frominto::main();
     manipulateoutput::main();
+    result::main();
 
 
 
