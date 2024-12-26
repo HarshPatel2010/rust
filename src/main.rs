@@ -34,6 +34,7 @@ mod asconversion;
 mod frominto;
 mod manipulateoutput;
 mod result;
+mod debug;
 
 
 
@@ -99,6 +100,7 @@ fn main() {
     frominto::main();
     manipulateoutput::main();
     result::main();
+    debug::main();
 
 
 
