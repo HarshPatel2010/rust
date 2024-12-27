@@ -104,6 +104,19 @@ pub fn main() {
 
                     owner.add_one();
                     owner.print();
+                    /* Make it work by adding proper lifetime annotations */
+                    struct ImportantExcerpt<'a> {
+                        part: &'a str,
+                    }
+
+                    impl ImportantExcerpt<'_> {
+                        fn level<'a>(&'a self) ->  i32 {
+                        3
+                        }
+                    }
+
+                    fn main() {}
+                    main()
                 }
                 main()
             }
