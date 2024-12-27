@@ -35,6 +35,7 @@ mod frominto;
 mod manipulateoutput;
 mod result;
 mod debug;
+mod lifetime;
 
 
 
@@ -101,6 +102,7 @@ fn main() {
     manipulateoutput::main();
     result::main();
     debug::main();
+    lifetime::main();
 
 
 
