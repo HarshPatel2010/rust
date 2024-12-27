@@ -155,6 +155,12 @@ pub fn main() {
 
                                     /* Make it work, only change the following line */
                                     let n = example_closure(5.to_string());
+                                    fn main() {
+                                        let x = 1;
+                                        let closure = |val| val + x;
+                                        assert_eq!(closure(2), 3);
+                                    }
+                                    main()
                                 }
                                 main()
 
