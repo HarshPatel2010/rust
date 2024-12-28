@@ -32,6 +32,21 @@ Using two ways if possible */
                 }
 
                 println!("names: {:?}", names);
+                /* Fill in the blank */
+                fn main() {
+                    let mut values:Vec<i32> = vec![1, 2, 3];
+                    let mut values_iter = values.iter_mut();
+
+                    if let Some(v) = values_iter.next(){
+                        *v=0
+                    }
+
+                    assert_eq!(values, vec![0, 2, 3]);
+                    for e in values  {
+                        println!("{}",e);
+                    }
+                }
+                main()
             }
             main()
         }
