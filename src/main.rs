@@ -34,6 +34,7 @@ mod asconversion;
 mod frominto;
 mod manipulateoutput;
 mod closure;
+mod iterator;
 mod result;
 mod debug;
 mod lifetime;
@@ -105,6 +106,7 @@ fn main() {
     debug::main();
     lifetime::main();
     closure::main();
+    iterator::main();
 
 
 
