@@ -33,6 +33,7 @@ mod hashmap;
 mod asconversion;
 mod frominto;
 mod manipulateoutput;
+mod closure;
 mod result;
 mod debug;
 mod lifetime;
@@ -103,6 +104,7 @@ fn main() {
     result::main();
     debug::main();
     lifetime::main();
+    closure::main();
 
 
 

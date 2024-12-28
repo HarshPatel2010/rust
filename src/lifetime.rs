@@ -170,7 +170,9 @@ pub fn main() {
 
                                         fn main() {
                                             let x = vec![1, 2, 3];
+
                                             fn_once(|z|{z == x.len()})
+
                                         }
                                         main()
                                     }
